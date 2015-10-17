@@ -17,8 +17,7 @@ $(document).ready(function() {
 
     L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
         subdomains: 'abcd',
-        maxZoom: 19,
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+        maxZoom: 19
     }).addTo(map);
 
     // indego markers
@@ -40,12 +39,46 @@ $(document).ready(function() {
 
         // Create a data point for each marker
         L.geoJson(data, {
-
             onEachFeature: function (feature, layer) {
-                layer.bindPopup('<a href="#' + encodeURIComponent(feature.properties['Site Name']) + '">' + feature.properties['Site Name'] + "</a>"
-                );
+                var popUpContent = $('<a href="#' + encodeURIComponent(feature.properties['Site Name']) + '">' + 
+                    feature.properties['Site Name'] + 
+                    "</a>").click(function() {
+                        shrikMap();
+                })[0];
+
+                layer.bindPopup(popUpContent);
             }
         }).addTo(map);
+        
+        var content = $("#content");
 
+        for (var i = 0; i < data.features.length; i++) {
+            console.log(data.features[i]);
+            //Insert Anchor
+            //Site Name
+            var h3 = document.createElement("h3");
+            h3.innerHTML = data.features[i].properties['Site Name'];
+            content.append(h3);
+            //Completion date
+            var h5 = document.createElement("h5");
+            h5.innerHTML = data.features[i].properties['Completion Date'];
+            content.append(h5);
+            //Neighborhood
+            var h5 = document.createElement("h5");
+            h5.innerHTML = data.features[i].properties['Neighborhood'];
+            content.append(h5);
+            //Description
+            var p = document.createElement("p");
+            p.innerHTML = data.features[i].properties['Description'];
+            content.append(p);
+        }
     });
+    
+    // Shrink map when user clicks single point
+    function shrikMap() {
+        // @todo add transition
+        $('#map').addClass('map-small');
+        map.invalidateSize()
+        map.panTo([39.9394357303,-75.15820773]);
+    }
 });
