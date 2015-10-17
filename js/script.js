@@ -13,7 +13,7 @@ var indegoIcon = L.icon({
 
 $(document).ready(function() {
     // Generate Map
-    map = L.map('map').setView([39.9394357303,-75.15820773], 13);
+    map = L.map('map').setView([39.9394357303,-75.15820773], 14);
 
     L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
         subdomains: 'abcd',
@@ -76,9 +76,12 @@ $(document).ready(function() {
     
     // Shrink map when user clicks single point
     function shrikMap() {
-        // @todo add transition
-        $('#map').addClass('map-small');
-        map.invalidateSize()
-        map.panTo([39.9394357303,-75.15820773]);
+        $('#map').animate({
+            bottom: "65%",
+        }, 200, function() {
+            $('#map').addClass('map-small');
+            map.invalidateSize()
+            map.panTo([39.9394357303,-75.15820773]);
+        });
     }
 });
