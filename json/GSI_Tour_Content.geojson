@@ -1,0 +1,173 @@
+{
+    "crs": {
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        },
+        "type": "name"
+    },
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -75.15820773,
+                    39.9394357303
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Aboveground Photos": "https://www.dropbox.com/sh/jff7aux4wiozdpj/AABDQ30E_xaM_m7x6g2JLhaOa?dl=0",
+                "Description": "\n\u2022 Percy Street required deep excavation for a new sewer, which led to the total replacement of the street and sub-base. This provided an excellent opportunity to apply porous asphalt.\n\u2022 Permeable materials, such as porous asphalt, are specially designed systems that allow water to soak through a typically impenetrable surface, significantly reducing stormwater runoff from a site.\n\u2022 Porous asphalt is as strong as conventional asphalt, but has voids in it that allow water to trickle through the material.\n\u2022 Benefits of porous asphalt include extended life of the street, decreased need for salting and snow removal, and significant reduction in stormwater runoff.\n\u2022 Maintenance to date has been a biannual vacuuming, although PWD is looking into using a street sweeping machine as well. Monitoring includes two internal observation wells, six nearby groundwater monitoring wells, and regular surface infiltration testing. \n\u2022 Additional advantages of permeable paving include: higher visibility of pavement markings, reduced noise due to surface absorbtion, reduces the \"heat island\" effect and reduced snow removal requirements and less potential for ice. ",
+                "Headline": "The 800 block of South Percy Street is Philadelphia\u2019s first porous street.",
+                "Lat": 39.939436,
+                "Long": -75.158208,
+                "Neighborhood": "Bella Vista",
+                "OBJECT_ID": 6127,
+                "Partners": "Philadelphia Streets Department, Bella Vista Town Watch, Mayor's Office of Transportation and Utilities and the residents of 800 South Percy Street",
+                "Public friendly conversions": "4,915 gallons which is equal to 70 bathtubs ",
+                "Site Name": "Percy Street ",
+                "Underground Photos": null,
+                "address": "800 S. Percy Street",
+                "cost": "Paving: $21000 \nStone base: $5,500 \nTotal job (water, sewer, curbs, footway and street paving): $330,000 \n",
+                "green tools": "Porous asphalt",
+                "storage volume": "657 Cubic Feet"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -75.1655688073,
+                    39.9332688625
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Aboveground Photos": null,
+                "Description": "\u2022 A series of streetside stormwater planters capture runoff from the contributing street and sidewalk areas. A stormwater planter manages street and sidewalk runoff through infiltration and evapotranspiration (or detention and slow-release when underlying soils do not allow for infiltration). \n\u2022 The stormwater planters benefit our streams and rivers by reducing stormwater flows into the overburdened combined sewer system, while benefiting the surrounding community through greening a significant sidewalk area and enhancing neighborhood aesthetics. \n\u2022 In 2012, Philadelphia Water returned to the site to install a rain garden at the corner of 12th and Reed.\n",
+                "Headline": "Columbus Square, in a densely populated South Philadelphia neighborhood, is an important demonstration site. Philadelphia Water built the first stormwater planters in the city at this site and later constructed an urban rain garden.",
+                "Lat": 39.933269,
+                "Long": -75.165569,
+                "Neighborhood": "Passyunk Square",
+                "OBJECT_ID": 6404,
+                "Partners": "Philadelphia Parks and Recreation, Streets Department, Columbus Square Park Advisory Council, Passyunk Square Civic Association, Green Club of the Christopher Columbus Charter School.",
+                "Public friendly conversions": "stormwater planters capture 7,100 gallons, which is equal to 142 bathtubs ",
+                "Site Name": "Columbus Square",
+                "Underground Photos": null,
+                "address": "12th and Reed Streets",
+                "cost": "Planters: $185,000",
+                "green tools": "stormwater planters, rain garden",
+                "storage volume": "stormwater planters: 730 cubic feet"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -75.148702101,
+                    39.930704197
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Aboveground Photos": "https://www.dropbox.com/sh/cmlt2wn6500bip3/AAD2Ccolqry9lvlhIvAh4DmRa?dl=0",
+                "Description": "\u2022 An infiltration system was built as part of a reconstruction of the playground to manage both on-site and off-site runoff from the adjacent streets. The basketball court was reconstructed and resurfaced with porous asphalt. A subsurface infiltration system was installed beneath the basketball court to manage stormwater runoff from portions of Earp St. and American St. \u2022 A porous safety surface made from recycled tires, a rain garden and new trees were installed on this formerly tree-less site. Additional landscaping complements the stormwater features, mitigating the urban heat island effect, providing visual interest and creating a space for recreation.",
+                "Headline": "Herron Playground was a 100% impervious site and consisted of a pool, basketball court, play equipment and a large paved area before the park was redeveloped to include a porous basketball court, rain gardens, and stormwater trees.",
+                "Lat": 39.930704,
+                "Long": -75.148702,
+                "Neighborhood": "Pennsport",
+                "OBJECT_ID": 6421,
+                "Partners": "Philadelphia Parks and Recreation, Philadelphia Capital Program Office, and the Department of Public Property",
+                "Public friendly conversions": "44,337 gallons, which is equal to 633 bathtubs",
+                "Site Name": "Herron Playground",
+                "Underground Photos": "http://www.phillywatersheds.org/img/Infiltration_Trench_with_Orifice-13.png",
+                "address": "250 Reed Street",
+                "cost": "$1,500,000",
+                "green tools": "Subsurface detention system, porous paving, porous asphalt (basketball court), rain gardens and stormwater trees.",
+                "storage volume": "5,972  cubic feet of storage (porous basketball court)"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -75.1514442679,
+                    39.9276534167
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Aboveground Photos": null,
+                "Description": null,
+                "Headline": "Stormwater bumpouts at Dickinson Square collect runoff from Moyamensing Ave. In addition to infiltrating stormwater and nurturing plants, bumpouts provide traffic calming near a pedestrian crossing. ",
+                "Lat": 39.927653,
+                "Long": -75.151444,
+                "Neighborhood": "Pennsport",
+                "OBJECT_ID": 6647,
+                "Partners": "Philadelphia Parks and Recreation, Friends of Dickinson Park and SEPTA",
+                "Public friendly conversions": " 24,294 gallons, which is equal to 347 bathtubs  ",
+                "Site Name": "Dickinson Square",
+                "Underground Photos": null,
+                "address": "Moyamensing Avenue and Morris Street",
+                "cost": null,
+                "green tools": "tree trench, stormwater bumpout",
+                "storage volume": "3,247 cubic feet"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -75.16303,
+                    39.933548
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Aboveground Photos": "https://www.dropbox.com/sh/nkfxeznnoro3t6r/AACiZRwHP5q99zgoky_G8PmBa?dl=0",
+                "Description": "\u2022 Philadelphia Water awarded the project a $79,500 grant through SMIP, the Stormwater Management Incentives Program. In addition, the project qualifies for a $200 monthly credit on its stormwater bill.\n\u2022 As part of the redevelopment project, several stormwater management features were installed including the green roof, a rain garden in the parking lot and two subsurface infilration beds.\n\u2022 The green roof takes up about 67% of the roof area, and treats runoff from approximately 15,000 sf of roof. All together, the stormwater management features collect water from an area slightly larger than half a football field.\n\u2022 The redeveloped school building now holds 45 loft apartments and provides 38 parking spaces. The green roof is one of several amenities designed to attract residents to the building.",
+                "Headline": "Wharton Street Lofts, a former elementary school, was converted into apartments in 2014. Philadelphia Water provided a grant to the developer to incentivize stormwater management. Now, the building has a green roof that collects rainwater and boasts an excellent view of the city skyline.",
+                "Lat": 39.933548,
+                "Long": -75.16303,
+                "Neighborhood": "Passyunk Square",
+                "OBJECT_ID": null,
+                "Partners": "PWD - SMIP grant",
+                "Public friendly conversions": null,
+                "Site Name": "Wharton Lofts",
+                "Underground Photos": null,
+                "address": "1148 Wharton Street",
+                "cost": "SMIP grant was $79,500",
+                "green tools": "green roof, rain garden, subsurface infiltration basins",
+                "storage volume": "\u2022 Green Roof: Drainage Area: 15,355 SF, Medium Depth: 3\u201d to 4.5\u201d\n\u2022 Subsurface Infiltration Basin (Wharton St.): Drainage Area: 6,537 SF, Footprint: 1,300 SF, WQ Volume: 527 CF\n\u2022 Subsurface Infiltration Basin (12th St.): Drainage Area: 7,310 SF, Footprint: 1,439 SF, WQ Volume: 585.83 CF\n\u2022 Rain Garden: Drainage Area: 5,377 SF, Footprint: 737 SF, WQ Volume: 384.33 CF\n\u2022 Total Drainage Area managed: 34,579 SF\n"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -75.15937,
+                    39.935406
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Aboveground Photos": null,
+                "Description": null,
+                "Headline": null,
+                "Lat": 39.935406,
+                "Long": -75.15937,
+                "Neighborhood": "South Philadelphia",
+                "OBJECT_ID": null,
+                "Partners": "Redevelopment Authority of Philadelphia",
+                "Public friendly conversions": null,
+                "Site Name": "St. Marons Senior Housing",
+                "Underground Photos": null,
+                "address": "921 - 931\u00a0\u00a0 Ellsworth\u00a0 Street",
+                "cost": "Total project cost: $11236000.00",
+                "green tools": "Subsurface infiltration & detention basins, green roof, porous concrete pavers",
+                "storage volume": "\u2022 Infiltration Basin: Impervious Drainage Area: 7659 SF, Footprint: 1480 SF, Water Quality Volume: 638 CF\n\u2022 Detention Basin: Impervious Drainage Area: 8094 SF, Footprint: 1632 SF, Water Quality Volume: 389 CF\n\u2022 Green Roof: Footprint: 1026 SF\n"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}
