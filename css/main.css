@@ -1,5 +1,5 @@
 #map { 
-    position:absolute; 
+    position:fixed; 
     top:0; 
     bottom:0; 
     width:100%;
@@ -7,4 +7,8 @@
 
 .map-small {
     bottom: 65% !important;
+}
+
+#content {
+    margin-top: 40vh;
 }
