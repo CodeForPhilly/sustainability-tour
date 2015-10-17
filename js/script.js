@@ -60,21 +60,27 @@ $(document).ready(function() {
         var content = $("#content");
 
         for (var i = 0; i < data.features.length; i++) {
-            console.log(data.features[i]);
+
             //Insert Anchor
+            var a = document.createElement('a');
+            a.setAttribute('name',data.features[i].properties['Site Name']);
+            content.append(a);
 
             //Site Name
             var h3 = document.createElement("h3");
             h3.innerHTML = data.features[i].properties['Site Name'];
             content.append(h3);
+            
             //Completion date
             var h5 = document.createElement("h5");
             h5.innerHTML = data.features[i].properties['address'];
             content.append(h5);
+            
             //Neighborhood
             var h5 = document.createElement("h5");
             h5.innerHTML = data.features[i].properties['Neighborhood'];
             content.append(h5);
+            
             //Description
             var p = document.createElement("p");
             p.innerHTML = data.features[i].properties['Description'];
