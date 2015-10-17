@@ -15,6 +15,12 @@ $(document).ready(function() {
     // Generate Map
     map = L.map('map').setView([39.9394357303,-75.15820773], 14);
 
+    var userLocationMarker = makeUserLocationMarker();
+
+    if (userLocationMarker) {
+        userLocationMarker.addTo(map);
+    }
+
     L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
         subdomains: 'abcd',
         maxZoom: 19
@@ -74,7 +80,8 @@ $(document).ready(function() {
             content.append(p);
         }
     });
-    
+
+
     // Shrink map when user clicks single point
     function shrikMap() {
         $('#map').animate({
