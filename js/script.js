@@ -55,7 +55,9 @@ $(document).ready(function() {
         for (var i = 0; i < data.features.length; i++) {
             console.log(data.features[i]);
             //Insert Anchor
-
+            var a = document.createElement('a');
+            a.setAttribute('name',data.features[i].properties['Site Name']);
+            content.append(a);
             //Site Name
             var h3 = document.createElement("h3");
             h3.innerHTML = data.features[i].properties['Site Name'];
