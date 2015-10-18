@@ -54,7 +54,11 @@
         </button>
       </div>
     </div>
-    <div id="content"></div>
+    <div class="container">
+      <div id="content">
+
+      </div>
+    </div>
     <div id="map"></div>
     <footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.js"></script>
@@ -63,6 +67,34 @@
         <script src='http://cdn.rawgit.com/twbs/bootstrap/master/js/transition.js'></script>
         <script src='http://cdn.rawgit.com/jasny/bootstrap/master/js/offcanvas.js'></script>
         <script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.min.js"></script>
+        <script id="entry-template" type="text/x-handlebars-template">
+          <div class="row-fluid">
+            <div class="col-xs-12 {{#if PreviewImageUrl}}col-md-8{{/if}} locationinformation">
+              <a name="{{'Site Name'}}"></a>
+              <h1>{{"Site Name"}}</h1>
+
+              <h3 id="locationaddress">{{"address"}}</h3>
+
+              <h3 id="locationneighborhood">{{"Neighborhood"}}</h3>
+              {{#if cost}}
+              <p><strong>Cost:</strong> {{"cost"}}</p>
+              {{/if}}
+              {{{"Description"}}}
+              <p><strong>Green Tools Used:</strong> {{"green tools"}}</p>
+              <p><strong>Storage Volume:</strong> {{"storage volume"}}</p>
+              <p><strong>Partners:</strong> {{"Partners"}}</p>
+              {{#if PublicFriendlyConversions}}
+              <p><strong>Water Redirected:</strong> {{"PublicFriendlyConversions"}}</p>
+              {{/if}}
+            </div>
+            {{#if PreviewImageUrl}}
+              <div class="col-xs-12 col-md-4 locationimage">
+                <img class="img-responsive center-block" src="{{'PreviewImageUrl'}}">
+              </div>
+            {{/if}}
+          </div>
+        </script>
         <script src="js/userlocation.js"></script>
         <script src="js/script.js"></script>
     </footer>

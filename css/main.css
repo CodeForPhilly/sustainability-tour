@@ -64,3 +64,26 @@ body {
 .modal-body {
   text-align: justify;
 }
+/* content style */
+
+h1 {
+  margin-bottom: -10px;
+ } 
+  
+#locationaddress {
+  margin-bottom: -20px;
+}
+
+#locationneighborhood {
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: justify;
+}
+
+.img-responsive {
+  max-width: 300px;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
