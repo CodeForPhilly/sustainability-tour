@@ -27,6 +27,8 @@ $(document).ready(function() {
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
     }).addTo(map);
 
+    $('#myModal').modal('show')
+
     // indego markers
     $.getJSON('https://api.phila.gov/bike-share-stations/v1', function(data) {
         L.geoJson(data, {
