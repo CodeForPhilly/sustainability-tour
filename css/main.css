@@ -42,7 +42,10 @@ body {
 }
 
 #content {
-    margin-top: 40vh;
+    position: fixed;
+    top: 35%;
+    overflow: auto;
+    max-height: 65vh;
 }
 
 /* modal style */

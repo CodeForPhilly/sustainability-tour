@@ -60,8 +60,15 @@ $(document).ready(function() {
         }).addTo(map);
         
         var content = $("#content");
+        var navBar = $("#nav-menu");
 
         for (var i = 0; i < data.features.length; i++) {
+
+            // Add content to navbar
+            var navLink = $('<li><a href="#' + encodeURIComponent(data.features[i].properties['Site Name']) + '">' + parseInt(i + 1) + ". " + data.features[i].properties['Site Name'] + "</a></li>").click(function() {
+                    shrikMap();
+                })[0];
+            navBar.append(navLink);
 
             //Insert Anchor
             var a = document.createElement('a');
@@ -99,6 +106,7 @@ $(document).ready(function() {
             $('#map').addClass('map-small');
             map.invalidateSize()
             map.panTo([39.9394357303,-75.15820773]);
+            $('body').css('overflow', 'scroll');
         });
     }
 });
