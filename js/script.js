@@ -43,6 +43,21 @@ $(document).ready(function() {
         }).addTo(map);
     });
 
+    $.getJSON('json/polygons.geojson', function(data) {
+        L.geoJson(data, {
+            style: function () {
+                return {
+                    fillColor: '#67c',
+                    fillOpacity: 1,
+                    clickable: false,
+                    color: '#45f',
+                    opacity: 0.7,
+                    weight: 2
+                }
+            }
+        }).addTo(map);
+    })
+
     // tour content markers
     $.getJSON('json/GSI_Tour_Content.geojson', function(data) {
 
