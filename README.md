@@ -12,3 +12,6 @@ A one pager designed to show a curated list of sustainability projects in the So
 ## Remote Installation
 
 Simply move the contents of this directory onto your webserver and hit the index.html file in your browser.
+
+## Public URL
+http://cfabrigadephiladelphia.github.io/sustainability-tour/
