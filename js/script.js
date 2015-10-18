@@ -20,6 +20,8 @@ $(document).ready(function() {
         maxZoom: 19
     }).addTo(map);
 
+    $('#myModal').modal('show')
+
     // indego markers
     $.getJSON('https://api.phila.gov/bike-share-stations/v1', function(data) {
         L.geoJson(data, {

@@ -8,8 +8,9 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/jasny/bootstrap/master/dist/css/jasny-bootstrap.min.css'>
+    
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css"/>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,6 +20,26 @@
     <![endif]-->
   </head>
   <body>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Philadelphia Water Sustainability Tour</h4>
+      </div>
+      <div class="modal-body">
+      Green City, Clean Waters is Philadelphia’s 25-year plan to transform the health of the City’s creeks and rivers primarily through a land-based approach. By implementing green stormwater infrastructure projects such as rain gardens and stormwater planters, the City can reduce water pollution impacts while improving our essential natural resources and making our neighborhoods more beautiful. 
+        <img id="naturalurban" src="http://www.phila.gov/water/PublishingImages/naturalvsurbanrunoff.jpg">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     <div id="map"></div>
 
     <div id="navbar">

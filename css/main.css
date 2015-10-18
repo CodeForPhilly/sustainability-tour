@@ -9,7 +9,7 @@ body {
 /*navbar style */
 .navbar-toggle {
   float: left;
-  margin-left: 15px;
+  margin-left: 55px;
 }
 
 @media (min-width: 0) {
@@ -40,3 +40,23 @@ body {
 .map-small {
     bottom: 65% !important;
 }
+
+/*modal style */
+#naturalurban {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#myModalLabel {
+  text-align: center;
+}
+
+.modal-body {
+  text-align: justify;
+}
+
+
+
